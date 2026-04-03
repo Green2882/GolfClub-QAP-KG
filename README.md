@@ -17,8 +17,6 @@
 - Update member info: PUT /api/1.0.0/members/{id}
 - Delete a member: DELETE /api/1.0.0/members/{id}
 
----
-
 ### Search tournaments by:
 
 - Start date: GET /api/1.0.0/tournaments/search?startDate=2024-10-01
