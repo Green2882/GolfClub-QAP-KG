@@ -2,6 +2,7 @@
 
 # Supported search APIs
 Search members by:
+
 - Name - GET /api/1.0.0/members/search?name=John Smith
 - Membership type - GET /api/1.0.0/members/search?membershipType=Gold
 - Phone number - GET /api/1.0.0/members/search?phoneNumber=1234567890
@@ -14,6 +15,7 @@ Update member info - PUT /api/1.0.0/members/{id}
 Delete a member - DELETE /api/1.0.0/members/{id}
 
 Search tournaments by: 
+
 - Start date - GET /api/1.0.0/tournaments/search?startDate=2024-10-01
 - Location - GET /api/1.0.0/tournaments/search?location=Avalon Golf Course
 - Members signed up - GET /api/1.0.0/tournaments/search?memberId=1
